@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+used mareial UI for entire applicaiton.
+
+first thing
+-> removwe all un-necessary files and then installed matreial UI via "npm install @mui/material @emotion/react @emotion/styled"
+-> chnaged the backgr color
