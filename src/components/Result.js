@@ -7,7 +7,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 
 const Result = ({ data }) => {
-  const { homeValue, downPayment, loanAmount, interestRate, hoaAmount, utilities, loanTerm } = data
+  const { homeValue, loanAmount, interestRate, hoaAmount, utilities, loanTerm } = data
 
   const totalLoanMonths = loanTerm * 12; // 60 months = 5 years
   const interestRatePerMonth = interestRate / 100 / 12 // 100 @ 12% for 1 year
